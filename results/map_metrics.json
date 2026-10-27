@@ -1,0 +1,13 @@
+{
+  "coverage_single_station": 0.1768,
+  "coverage_multi_station_2": 0.3536,
+  "coverage_multi_station_3": 0.5304,
+  "coverage_multi_station_4": 0.7072,
+  "coverage_target": 0.85,
+  "coverage_base": 0.5,
+  "map_mae": 1.5593441516449118,
+  "map_rmse": 3.8132562528561276,
+  "spatial_reconstruction_error_m": 76.26512505712255,
+  "los_error_target_m": 5,
+  "nlos_error_target_m": 20
+}

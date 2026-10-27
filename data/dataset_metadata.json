@@ -1,0 +1,63 @@
+{
+  "base_stations": [
+    [
+      100.0,
+      100.0,
+      30
+    ],
+    [
+      900.0,
+      100.0,
+      30
+    ],
+    [
+      100.0,
+      900.0,
+      35
+    ],
+    [
+      900.0,
+      900.0,
+      35
+    ]
+  ],
+  "band_config": {
+    "sub_6ghz": {
+      "band_name": "Sub-6GHz",
+      "freq_mhz": 3500,
+      "wavelength_m": 0.0857
+    },
+    "mmwave_28": {
+      "band_name": "28GHz毫米波",
+      "freq_mhz": 28000,
+      "wavelength_m": 0.0107
+    },
+    "mmwave_60": {
+      "band_name": "60GHz毫米波",
+      "freq_mhz": 60000,
+      "wavelength_m": 0.005
+    }
+  },
+  "env_states": {
+    "0": {
+      "name": "normal",
+      "description": "正常环境（视距传播）"
+    },
+    "1": {
+      "name": "obstacle",
+      "description": "障碍遮挡（建筑物/树木阻挡）"
+    },
+    "2": {
+      "name": "interference",
+      "description": "同频干扰（电磁干扰）"
+    },
+    "3": {
+      "name": "rain",
+      "description": "降雨扰动（雨衰影响）"
+    }
+  },
+  "area_size": 1000,
+  "n_samples_total": 4000,
+  "n_train": 3200,
+  "n_test": 800
+}
